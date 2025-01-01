@@ -1,0 +1,164 @@
+.thefirst h1 {
+    font-size: 14px;
+    text-align: center;
+    background-color: #a11040;
+    color: white;
+    height: 20px;
+}
+.thefirst .navbar .nav-link.active {
+    border-bottom: 2px solid black;
+}
+.thefirst .navbar .nav-link:hover {
+    color: #a11040;
+}
+.thesecond .line {
+    height: 2px;
+    width: 100%;
+    background-color: #a11040;
+    margin: 10px 0;
+}
+.thesecond button {
+    border: none;
+    background-color: #a11040;
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.thethird h2 {
+    color: #a11040;
+}
+.thethird p {
+    font-size: 24px;
+    color: #000000;
+}
+.thethird .third {
+    display: flex;
+    justify-content: space-between;
+}
+.thethird .third .second p {
+    font-size: 20px;
+    color: #000000;
+}
+.thethird .third .second h3 {
+    color: #a11040;
+}
+.thethird .third .second span {
+    font-weight: bold;
+}
+@media(max-width:900px) {
+    .thethird h2 {
+        margin-left: 60px;
+    }
+    .thethird p {
+        margin-left: 60px;
+    }
+    .thethird .third {
+        flex-direction: column;
+        
+    }
+   
+    .thethird .third .second {
+        width: 50%;
+        margin-left: 30%;
+    }
+}
+@media(max-width:1200px) {
+    .thethird .third {
+        flex-direction: row;
+    }
+}
+.theforth .forth {
+    display: flex;
+}
+.theforth .forth h3 {
+    color: #a11040;
+}
+.theforth .forth .first {
+    margin-top: 20px;
+}
+.theforth .forth .first p {
+    font-size: 20px;
+}
+@media(max-width:900px) {
+    .theforth .forth {
+        flex-direction: column-reverse;
+    }
+    .theforth .forth .first {
+        width: 50%;
+        margin-left: 30%;
+    }
+}
+.thefifth .line {
+    height: 2px;
+    background-color: #a11040;
+    width: 100%;
+}
+.thefifth .fifth {
+    display: flex;
+    justify-content: space-between;
+}
+.thefifth .fifth ul li {
+    color: #a11040;
+    font-size: 20px;
+}
+.thefifth .fifth span {
+    color: #a11040;
+}
+@media(max-width:900px) {
+    .thefifth .fifth {
+        width: 30%;
+    }
+}
+.thesix {
+    background-color: rgb(238, 238, 238);
+}
+.thesix .six {
+    display: flex;
+    justify-content: space-between;
+    color: #a11040;
+}
+.theseven .line {
+    height: 2px;
+    background-color: #a11040;
+    width: 100%;
+    
+}
+.theseven img {
+    margin-top: 20px;
+    margin: 0 10px;
+}
+.theseven h2 {
+    margin-left: 10px;
+}
+.theeight .line {
+    height: 2px;
+    background-color: #a11040;
+    width: 100%;
+}
+.thenine {
+    display: flex;
+    justify-content: space-between;
+    background-color: #a11040;
+    margin-top: 10px;
+}
+.thenine ul li a {
+    text-decoration: none;
+    color: white;
+}
+.thenine ul li .li {
+    color: black;
+}
+.thenine ul li {
+    list-style: none;
+    margin-top: 20px;
+}
+.thenine h2 {
+    color: white;
+    margin-top: 50px;
+}
+.thenine h3 {
+    color: white;
+    font-size: 14px;
+    margin-top: 30px;
+}
